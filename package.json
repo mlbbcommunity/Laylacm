@@ -1,0 +1,33 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot powered by Baileys with plugin system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^6.7.5",
+    "dotenv": "^16.4.5",
+    "pino": "^9.3.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "plugins",
+    "koyeb",
+    "render"
+  ],
+  "author": "YourName",
+  "license": "MIT"
+}
